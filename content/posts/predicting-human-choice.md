@@ -1,6 +1,6 @@
 ---
 title: "Predicting Human Choice"
-date: 2022-08-29T12:55:28-04:00
+date: 2021-12-15
 draft: false
 toc: false
 images:
