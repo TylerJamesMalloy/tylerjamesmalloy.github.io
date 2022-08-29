@@ -1,0 +1,21 @@
+---
+title: "Predicting Human Choice"
+date: 2022-08-29T12:55:28-04:00
+draft: false
+toc: false
+images:
+tags:
+  - papers
+---
+
+This is the first post in a series of retrospectives looking back at papers and conferences I have attended. Now that I am entering my final year of my PhD, I will be begining this as a chronicle of projects, papers and conferences that influenced my time during my PhD. 
+
+This was my first accepted paper, I submitted it to the conference Reinforcement Learning and Decision Making in 2019. I attended the conference which was a great experience. I didn't know then but it would be one of the few in-person conferences I would attend! Although many of the online conferences I had been to since have been great experiences, the value of in-person poster and talk presentations can't be understated. I hope to go back to in-person conferences before the end of my PhD. 
+
+Now onto the contents of this paper. Looking back at it, I didn't know it then but this would be a big impact on the direction of my research moving forward. This paper took a data set that had generously been made publically available by the [Niv Lab](https://nivlab.princeton.edu/) at Princeton. Since it was my first year of my PhD, I didn't have the direction yet to design an experiment with human participants, and this helped significantly. The motivation of my paper was looking into modelling human learning using more modern approaches that had recently been gaining attention in reinforcement learning research. 
+
+The specific method I looked into was actor-critic reinforcement learning, which had been used in both artificial intelligence research as well as some cognitive modelling approaches. The difference in predictive accruacy was modest, but from my perspective the paper serves to support the body of work that uses more complex and modern reinforcement learning and artificial intelligence methods for cognitive modelling. This contribution was the focus of my paper writing and my discussions during my poster presentation. 
+
+Since this conference, I have continued to use this dataset in testing the model I am currently working with on my PhD thesis. Additionally, the design of the learning task inspired in part the experiment that I will soon be running. It's nice to look back at this early conference paper and think about how it has shaped my research moving forward. 
+
+Check out the [paper on my researchgate profile here](https://www.researchgate.net/publication/335663034_Predicting_Human_Choice_in_a_Multi-Dimensional_N-Armed_Bandit_Task_Using_Actor-Critic_Feature_Reinforcement_Learning) if you are interested.  
