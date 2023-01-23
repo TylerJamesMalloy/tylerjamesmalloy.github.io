@@ -1,0 +1,26 @@
+---
+title: "Sentience and World Representations in LLMs"
+date: 2023-01-24
+draft: false
+toc: false
+images:
+tags:
+  - review
+---
+
+In my last [blog post](https://tylerjamesmalloy.github.io/posts/neurips-2022/) I discussed a few of the presentations given at NeurIPS 2022 that I found particularly interesting. I didn't get a chance to write much on another presentation given by David Chalmers that was a condensed version of his [earlier talk](https://www.youtube.com/watch?v=-BcuCmf00_Y) "Are Large Language Models Sentient?". In this talk Chalmers discussed several possible positions on the question of sentience in large language models, systematically looking how these positions would define sentience and whether or not it is possible for LLMs like ChatGPT to exhibit those properties. 
+
+One of the commonly quoted properties that you might require for sentience is a world model, some internal representation of the state of the world that an experiencing agent exists in. An interesting idea that was discussed by Chalmers in this talk is that, while LLMs are trained to do next word in sentence prediction, it could theoretically be the case that the best way to learn how to do that is to have a world representation that might emerge out of training these large language models. 
+
+A [recent paper on openreview](https://openreview.net/forum?id=DeG07_TcZvT) for ICLR 2023 titled "Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task" explores this idea of emergent phenomenon on large language models. This paper explores the question of whether or not LLMs  "just memorize a collection of surface statistics, or do they rely on internal representations of the process that generates the sequences they see?". 
+
+This Chalmers talk also discusses possible additions onto LLMs (which he termed LLM+ models) that include other domains like images, videos, reinforcement learning and even theoretically other types of perception. The goal of the talk was to suggest that, even for some of the more strict definitions of what is required for sentience, we could imagine how such a LLM+ model would be constructed and trained. 
+
+So where does my research experience connect with these ideas? Typically we think of these world representations as being severely constrained in humans, and this could be a big difference between emergent world models in humans and  LLM+, such as the [much rumored about GPT4 model](https://www.theverge.com/23560328/openai-gpt-4-rumor-release-date-sam-altman-interview). A big part of my dissertation was trying to understand how the brain makes optimal representations of visual information in light of both information constraints and behavioral goals. However, if models are trained in an unconstrained manner to optimize next word prediction using billions or trillions of parameters, then any emergent phenomenon, either world models or other types of phenomenon like consciousness, might have significantly different properties than biological phenomenon. 
+
+While that position may sound like it is assuming that consciousness is an emergent phenomenon in humans, I don't want to come across as saying that is definitely the case. While it might or might not be true, I would agree on the implications of the nature of sentience or world models as they might be emerging in LLMs and other types of artificial intelligence. Specifically, if the training and optimization of these models does not taking into account information constraints, then it would likely be different from human cognition. 
+
+One of the possible differences exists in the example given in the 'Emergent World Representations' paper, which used Othello games as examples for testing whether a model has a representation of the state of an Othello game. Even with this simple board game example, we can start to think of how an unconstrained LLM might represent the state of an othello game differently than the human mind. One area where the model is less constrained is in the informational content of the representation, which we can assume is in the form of textual information. Comparing this to the human mind, we might expect that some of the representation of the world state of the game is in visual information, but also that this representation could be turned into a linguistic description of the pieces on the board. 
+
+This difference in representations might be solved by a LLM+ type model that also includes multimodal perception like images or videos and sound. However, it might be that even that type of model would still represent the world state significantly differently due to the lack of the same types of constraints that exist in the human mind. It will be interesting to see and compare the behaviour of the next generation of LLMs and other models with what we expect and know of the human mind and consciousness. 
+
