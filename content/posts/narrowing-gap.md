@@ -1,5 +1,5 @@
 ---
-title: "Narrowing The Gap With LLMs: Colin Allen"
+title: "Narrowing The Gap With LLMs"
 date: 2023-02-14
 draft: false
 toc: false
