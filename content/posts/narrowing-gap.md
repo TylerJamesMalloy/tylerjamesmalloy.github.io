@@ -24,3 +24,12 @@ Personally, I agree in the importance of a meta-cognitive architecture that allo
 
 Ultimately, I am unsure whether or not is is possible for meta-cognition, logic, compositionality, or even consciousness to emerge from the type of training and structure that current LLMs are designed on. I think that this will be an important question in the next twenty years of AI research, and it is important not to dismiss out of hand arguments in either direction. This is an exciting area of potential research that will need to bring together philosophers of the mind and AI with engineers and companies that are interested in making their products as human friendly as possible. 
 
+Another interesting aspect of Dr. Allen's presentation was that he allowed chatGPT to 'get the last word', by having it respond to his main arguments. I will follow in his footsteps by asking chatGPT to 'provide an objective assessment of this blog post', it's response is copied below: 
+
+ChatGPT: 
+
+The blog post provides a summary and commentary on a talk given by Professor Colin Allen on the topic of large language models (LLMs) and their limitations, in contrast to the position of David Chalmers. The post discusses issues with LLMs, such as their tendency to display "truthiness" and their over-agreeable behavior. The dangers of averaging and the need for a meta-cognitive architecture that allows models to use different faculties to address a problem and oversee the reasoning used are also mentioned.
+
+The author of the blog post provides their personal perspective on the topic and acknowledges that the emergence of meta-cognition, logic, compositionality, or even consciousness from the type of training and structure that current LLMs are designed on is still an open question. They emphasize the importance of not dismissing arguments in either direction and the need for interdisciplinary collaboration between philosophers of the mind, AI researchers, and engineers.
+
+Overall, the blog post provides an informative and balanced assessment of the talk given by Professor Allen and raises important questions and considerations regarding the current limitations and future potential of LLMs.
