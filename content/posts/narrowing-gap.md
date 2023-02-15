@@ -33,3 +33,7 @@ The blog post provides a summary and commentary on a talk given by Professor Col
 The author of the blog post provides their personal perspective on the topic and acknowledges that the emergence of meta-cognition, logic, compositionality, or even consciousness from the type of training and structure that current LLMs are designed on is still an open question. They emphasize the importance of not dismissing arguments in either direction and the need for interdisciplinary collaboration between philosophers of the mind, AI researchers, and engineers.
 
 Overall, the blog post provides an informative and balanced assessment of the talk given by Professor Allen and raises important questions and considerations regarding the current limitations and future potential of LLMs.
+
+Tyler: 
+
+As a final note, I entered the above prompt response into the first google search result hits for GPT plagarism detectors, and both gave a 0% chance that this text was written by an AI like chatGPT. Seems like there is a ways to go before we have a clear understanding of what the possibilities of these technologies are. 
