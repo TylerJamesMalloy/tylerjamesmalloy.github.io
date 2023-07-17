@@ -1,4 +1,247 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Human and Machine Learning in Cognitive Science</title><link>tylerjamesmalloy.github.io/posts/</link><description>Recent content in Posts on Human and Machine Learning in Cognitive Science</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="tylerjamesmalloy.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Learning to Learn</title><link>tylerjamesmalloy.github.io/posts/learning-to-learn/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>tylerjamesmalloy.github.io/posts/learning-to-learn/</guid><description>One interesting development in my research interests is the unexpected focus on &amp;rsquo;learning to learn&amp;rsquo; that many of my recent papers and projects have been focused on. During my PhD, I had shyed away from the more complex topics in cognitive modeling, such as meta learning. This decision was in part motivated by my interests in understanding the most basic and fundamental aspects of human and machine learning. Another aspect of this decision was the increased difficulty and potential problems that are associated with designing more complex tasks.</description><content type="html"><![CDATA[<p>One interesting development in my research interests is the unexpected focus on &rsquo;learning to learn&rsquo; that many of my recent papers and projects have been focused on. During my PhD, I had shyed away from the more complex topics in cognitive modeling, such as meta learning. This decision was in part motivated by my interests in understanding the most basic and fundamental aspects of human and machine learning. Another aspect of this decision was the increased difficulty and potential problems that are associated with designing more complex tasks.</p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Human and Machine Learning in Cognitive Science</title><link>tylerjamesmalloy.github.io/posts/</link><description>Recent content in Posts on Human and Machine Learning in Cognitive Science</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Mon, 17 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="tylerjamesmalloy.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>IEEE S&amp;P 2023</title><link>tylerjamesmalloy.github.io/posts/ieee-snp-2023/</link><pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate><guid>tylerjamesmalloy.github.io/posts/ieee-snp-2023/</guid><description>Keynote: Bart Preneel (KU Leuven) Discussion on the goals and realities of privacy policy implementations with examples from history of the 3 major &amp;lsquo;privacy wars&amp;rsquo;, their causes and impacts on public policy of privacy and security.
+Session: Phishing/fraud/scams Forward Pass: On the Security Implications of Email Forwarding Mechanism and Policy
+Enze Liu (University of California, San Diego), Gautam Akiwate (Stanford University), Mattijs Jonker (University of Twente), Ariana Mirian (University of California, San Diego), Grant Ho (University of California, San Diego), Geoffrey M.</description><content type="html"><![CDATA[<h2 id="keynote-bart-preneel-ku-leuven">Keynote: Bart Preneel (KU Leuven)</h2>
+<p>Discussion on the goals and realities of privacy policy implementations with examples from history of the 3 major &lsquo;privacy wars&rsquo;, their causes and impacts on public policy of privacy and security.</p>
+<h2 id="session-phishingfraudscams">Session: Phishing/fraud/scams</h2>
+<p><strong><a href="https://arxiv.org/abs/2302.07287">Forward Pass: On the Security Implications of Email Forwarding Mechanism and Policy</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-71"></a></strong><br>
+<strong>Enze Liu</strong> (University of California, San Diego), <strong>Gautam Akiwate</strong> (Stanford University), <strong>Mattijs Jonker</strong> (University of Twente), <strong>Ariana Mirian</strong> (University of California, San Diego), <strong>Grant Ho</strong> (University of California, San Diego), <strong>Geoffrey M. Voelker</strong> (University of California, San Diego), <strong>Stefan Savage</strong> (University of California, San Diego)</p>
+<p>Email forwarding impacts the effectiveness of security that is designed to ensure that emails are sent from the appropriate addresses like SPF. Also currently SPF is sourced through aggregated lists like through outlook.</p>
+<ul>
+<li>Open forwarding, not asking if you own the email you are sending the forwarded emails to.</li>
+<li>Whitelisting: Spam filters edited to allow emails from some domains. Can be issues with forwarding if you spoof an email as from a whitelisted domain, and this can be combined with email forwarding to forward arbitrary domains.</li>
+</ul>
+<p>Attack description: Whitelist state.gov in your outlook, spoof an email as coming from state.gov and send it to yourself, open forward message to target email to pass SPF.</p>
+<p><strong><a href="https://s3.eurecom.fr/post/2023/03/02/android-notify-me-when-it-is-time-to-go-phishing/">Android, notify me when it is time to go phishing</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-2"></a></strong><br>
+<strong>Antonio Ruggia</strong> (University of Genoa), <strong>Andrea Possemato</strong> (EURECOM), <strong>Alessio Merlo</strong> (University of Genoa), <strong>Dario Nisi</strong> (EURECOM), <strong>Simone Aonzo</strong> (EURECOM)
+Exploit Inotify for state inference, specifically to tell when the target application has been started, so that a malicious version of the application can be simultaneously launched that will collect user information.</p>
+<p><strong><a href="https://arxiv.org/abs/2210.15043">Active Countermeasures for Email Fraud</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-5"></a></strong><br>
+<strong>Wentao Chen</strong> (University of Bristol), <strong>Fuzhou Wang</strong> (City University of Hong Kong), <strong>Matthew Edwards</strong> (University of Bristol)</p>
+<p>Social engineering active defense (SEAD): degrade the ability of the attacker to victimize, through the use of social engineering, like scam-baiting (scam scammers, humiliate scammers, or waste their time). Issue is that it requires volunteers, much smaller community than the target population, doesn&rsquo;t scale.</p>
+<p>Automatic scam-baiting</p>
+<ul>
+<li>Trained on open-sourced scam baiter data.</li>
+<li>GPT-neo compared against templates statements.</li>
+<li>Concurrent engagement of scammers and these fake systems.</li>
+<li>Chat-GPT performs very well.</li>
+</ul>
+<p>Question: Would it be useful to detect if the scammer&rsquo;s conversation is being generated by a different automatic chatter?</p>
+<h2 id="session-crypto--formal-methods-i">Session: Crypto + formal methods I</h2>
+<p><strong><a href="https://arxiv.org/abs/2306.08169">Multi-Factor Credential Hashing for Asymmetric Brute-Force Attack Resistance</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-6"></a></strong><br>
+<strong>Vivek Nair</strong> (UC Berkeley), <strong>Dawn Song</strong> (UC Berkeley)</p>
+<p><a href="https://mfkdf.com/">MFKDF website</a></p>
+<p><a href="https://hashmob.net/">Hashmob</a>: Competition for cracking passwords after data breaches, occurs within 12-15 months after breach, salted passwords have lower rates of cracking, and adaptive hashing functions have lower rates too.</p>
+<p>Bcrypt and other adaptive hashing functions. Issue is that there is a symmetric resistance requiring more time/resources from the user.</p>
+<p>MFA is also used in a different factor/storage. MFCHF proposes adding the MFA information to the hash. Requires incorporating TOTP codes into static hashes.</p>
+<p><strong><a href="https://eprint.iacr.org/2021/1603">CHEX-MIX: Combining Homomorphic Encryption with Trusted Execution Environments for Oblivious Inference in the Cloud</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-7"></a></strong><br>
+<strong>Deepika Natarajan</strong> (University of Michigan-Ann Arbor), <strong>Andrew Loveless</strong> (University of Michigan-Ann Arbor), <strong>Wei Dai</strong> (Microsoft Research), <strong>Ron Dreslinski</strong> (University of Michigan-Ann Arbor)</p>
+<p>Insecurity in cloud computing with ML applications like voice assistants. Possible to reverse engineer model parameters through insecurities. Can also use details of model to de-anonymize user data.</p>
+<p>Adversary model assumes a rational model provider and a malicious client and cloud service provider. Goal is cloud oblivious inference. Homeomorphic Encryption doesn&rsquo;t achieve this because in enables data privacy but clients can edit inputs maliciously. TEEs like SGX enclaves don&rsquo;t work, attestation requires checking the ML code for vulnerabilities.</p>
+<p><strong>A Generic Obfuscation Framework for Preventing ML-Attacks on Strong-PUFs through Exploitation of DRAM-PUFs<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-8"></a></strong><br>
+<strong>Owen Millwood</strong> (University of Sheffield), <strong>Meltem Kurt Pehlivanoğlu</strong> (Kocaeli University), <strong>Jack Miskelly</strong> (Queen&rsquo;s University Belfast), <strong>Aryan Mohammadi Pasikhani</strong> (University of Sheffield), <strong>Prosanta Gope</strong> (University of Sheffield), <strong>Elif Bilge Kavun</strong> (University of Passau)</p>
+<p>Physically unclonable functions should be unique and secure. ML attacks try to predict new challenge response pairs to compromise security. Obfuscating techniques prevent ML-MA but are too PUF design specific and attack countermeasures are too costly. Solution could be to supplement cryptography with PUFs.</p>
+<p><strong><a href="https://arxiv.org/abs/2303.04500">Automatic verification of transparency protocols</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-9"></a></strong><br>
+<strong>Vincent Cheval</strong> (INRIA Paris, France), <strong>José Moreira</strong> (Valory AG, Switzerland), <strong>Mark Ryan</strong> (University of Birmingham)</p>
+<p>Transparency protocols allow for actions to be publicly monitored by observers. Examples are transparent decryption which prevents secretly decrypting some encrypted information. ProVerif is an example that enables this, verification of ledger&rsquo;s proofs. This is done by adding Lemmas/Axioms/Restrictions to ledger verifications.</p>
+<h2 id="session-security-and-ai">Session: Security and AI</h2>
+<p><strong>Protecting Voice-Controllable Devices Against Self-Issued Voice Commands<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-13"></a></strong><br>
+<strong>Sergio Esposito</strong> (Royal Holloway University of London), <strong>Daniele Sgandurra</strong> (Royal Holloway University of London), <strong>Giampaolo Bella</strong> (Università degli Studi di Catania)</p>
+<p>Electronically generated voices should be able to use smart devices for disabled users. Current methods can&rsquo;t tell if a voice command came from the same device. Solution is to use a twin ANN to compare recorded and original audios.</p>
+<p><strong><a href="https://arxiv.org/pdf/2112.02918.pdf">When the Curious Abandon Honesty: Federated Learning Is Not Private</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-14"></a></strong><br>
+<strong>Franziska Boenisch</strong> (Vector Institute), <strong>Adam Dziedzic</strong> (University of Toronto and Vector Institute), <strong>Roei Schuster</strong> (Vector Institute), <strong>Ali Shahin Shamsabadi</strong> (Vector Institute and The Alan Turing Institute), <strong>Ilia Shumailov</strong> (Vector Institute), <strong>Nicolas Papernot</strong> (University of Toronto and Vector Institute)</p>
+<p>Active attack of federated learning shared ML models with trap weights which induce the case where most input data has 0 gradient due to the RELU function 0ing out negative numbers. Just passively/honest querying can cause ~5% of neurons to be only activated by 1 data point, which allows for extraction. This means more neurons and smaller mini batches allow for more extraction. Some solutions are to add noisy data to training or testing.</p>
+<p><strong><a href="https://arxiv.org/abs/2208.10605">SoK: Explainable Machine Learning for Computer Security Applications</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-16"></a></strong><br>
+<strong>Azqa Nadeem</strong> (Delft University of Technology), <strong>Daniël Vos</strong> (Delft University of Technology), <strong>Clinton Cao</strong> (Delft University of Technology), <strong>Luca Pajola</strong> (University of Padua), <strong>Simon Dieck</strong> (Delft University of Technology), <strong>Robert Baumgartner</strong> (Delft University of Technology), <strong>Sicco Verwer</strong> (Delft University of Technology)</p>
+<p>XAI within Cybersecurity is broken into the model user, model designer, and adversary. Explanations should be tailored to who the explanation is for, user/designer. Explanation systems can be manipulated by adversaries to produce false explanations, or utilized by them to aid in the exploitation of AI services.</p>
+<p>User studies of XAI typically doesn&rsquo;t include model users, and doesn&rsquo;t treat explanation understandably as a target for XAI. Some issues where explanations can violate privacy. Gradient Boosting Machine trained on Netflow data, more interpretable models can be used in well defined cases without negative impacts to performance.</p>
+<h2 id="session-side-channels-and-transient-execution">Session: Side Channels and Transient Execution</h2>
+<p><strong><a href="https://arxiv.org/abs/2212.10221">SoK: Analysis of Root Causes and Defense Strategies for Attacks on Microarchitectural Optimizations</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-34"></a></strong><br>
+<strong>Nadja Ramhöj Holtryd</strong> (Chalmers University of Technology), <strong>Madhavan Manivannan</strong> (Chalmers University of Technology), <strong>Per Stenström</strong> (Chalmers University of Technology)</p>
+<p>What are the similarities and differences across optimization attacks, and are there common root causes for timing based attacks and side-channel attacks.</p>
+<ul>
+<li>Determinism:</li>
+<li>Sharing</li>
+<li>Access violation</li>
+<li>Information flow</li>
+</ul>
+<p>Paper provides analysis of common attacks from these features. Analyzes attack models based on a finite state machine that transitions between states through: setup, interaction, transmission, reception, and decoding.</p>
+<p><strong><a href="https://mici.hu/papers/bognar23microprofiler.pdf">MicroProfiler: Principled Side-Channel Mitigation through Microarchitectural Profiling</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-35"></a></strong><br>
+<strong>Marton Bognar</strong> (KU Leuven), <strong>Hans Winderix</strong> (KU Leuven), <strong>Jo Van Bulck</strong> (KU Leuven), <strong>Frank Piessens</strong> (KU Leuven)</p>
+<p>Interrupting timing attacks can be done by adding dummy nop commands after a test case fails, so that the attacker can&rsquo;t tell which path was followed down. However on some platforms allow for timing of all the individual instructions, which would be different for the nop condition.</p>
+<p><strong><a href="https://arxiv.org/pdf/2203.04277.pdf">You Cannot Always Win the Race: Analyzing mitigations for branch target prediction attacks</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-36"></a></strong><br>
+<strong>Alyssa Milburn</strong> (Intel Corporation), <strong>Ke Sun</strong> (Intel Corporation), <strong>Henrique Kawakami</strong> (Intel Corporation)
+Modern processors with a high number orat</p>
+<p><strong>From Dragondoom to Dragonstar: Side-channel Attacks and Formally Verified Implementation of WPA3 Dragonfly Handshake<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-38"></a></strong><br>
+<strong>Daniel De Almeida Braga</strong> (Université de Rennes 1, CNRS, IRISA), <strong>Mohamed Sabt</strong> (Université de Rennes 1, CNRS, IRISA), <strong>Pierre-Alain Fouque</strong> (Université de Rennes 1, CNRS, IRISA), <strong>Natalia Kulatova</strong> (Mozilla), <strong>Karthikeyan Bhargavan</strong> (INRIA)</p>
+<p>Issues with password conversion method in WPA3 resulting in a new offline dictionary attack.</p>
+<h2 id="session-crypto--formal-methods-ii">Session: Crypto + formal methods II</h2>
+<p><strong><a href="https://arxiv.org/pdf/2208.00283.pdf">Recurring Contingent Service Payment</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-39"></a></strong><br>
+<strong>Aydin Abadi</strong> (University College London), <strong>Steven J. Murdoch</strong> (University College London), <strong>Thomas Zacharias</strong> (University of Edinburgh)</p>
+<p>Fair exchange where two mutually distrustful parties want to swap digital items such that neither party can cheat the other. Blockchain-based solutions for fair exchange, by paying in digital currencies. Current solutions lack privacy and reveal real-time information about parties.</p>
+<p><strong><a href="https://eprint.iacr.org/2022/1023.pdf">SIM: Secure Interval Membership Testing and Applications to Secure Comparison</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-40"></a></strong><br>
+<strong>Albert Yu</strong> (Purdue University), <strong>Donghang Lu</strong> (Purdue University), <strong>Aniket Kate</strong> (Purdue University), <strong>Hemanta K. Maji</strong> (Purdue University)</p>
+<p>Secure comparison is used in neural network and decision tree applications which try to be privacy preserving and secure. Want to split work between offline and online, and push work to the offline phase where things can be pre-computed.</p>
+<p><strong>Careful with MAc-then-SIGn: A Computational Analysis of the EDHOC Lightweight Authenticated Key Exchange Protocol<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-41"></a></strong><br>
+<strong>Felix Günther</strong> (ETH Zurich), <strong>Marc Ilunga Tshibumbu Mukendi</strong> (Trail of Bits)</p>
+<p><strong>Proof-of-Learning is Currently More Broken Than You Think<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-42"></a></strong><br>
+<strong>Congyu Fang</strong> (University of Toronto and Vector Institute), <strong>Hengrui Jia</strong> (University of Toronto and Vector Institute), <strong>Anvith Thudi</strong> (University of Toronto and Vector Institute), <strong>Mohammad Yaghini</strong> (University of Toronto and Vector Institute), <strong>Christopher A. Choquette-Choo</strong> (Google), <strong>Natalie Dullerud</strong> (University of Toronto and Vector Institute), <strong>Varun Chandrasekaran</strong> (Microsoft Research &amp; University of Illinois Urbana-Champaign), <strong>Nicolas Papernot</strong> (University of Toronto and Vector Institute)</p>
+<p>Infinitesimal update attack sends a small weight update as a proof of learning.</p>
+<p><strong>Certifiably Vulnerable: Using Certificate Transparency Logs for Target Reconnaiss/ance<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-64"></a></strong><br>
+<strong>Stijn Pletinckx</strong> (University of California, Santa Barbara), <strong>Thanh-Dat Nguyen</strong> (Delft University of Technology), <strong>Tobias Fiebig</strong> (Max Planck Institute for Informatics), <strong>Christopher Kruegel</strong> (University of California, Santa Barbara), <strong>Giovanni Vigna</strong> (University of California, Santa Barbara)</p>
+<p>Honeypot study. Renewing certificates and logging on public certificate logs results in increases in traffic. Comparing to study from 3 years ago shows faster scans and IPv6 which wasn&rsquo;t in previous results. Conclusion is that these public certificate logs are still beneficial but can result in attack attempts when they are used.</p>
+<h3 id="session-web-and-social-media">Session: Web and social media</h3>
+<p><strong>Chrowned by an Extension: Exploiting the Chrome DevTools Protocol<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-43"></a></strong><br>
+<strong>José Miguel Moreno</strong> (Universidad Carlos III de Madrid), <strong>Narseo Vallina-Rodriguez</strong> (IMDEA Networks/AppCensus), <strong>Juan Tapiador</strong> (Universidad Carlos III de Madrid)</p>
+<p><strong><a href="https://www.danielwoods.info/assets/pdf/KVW_DarkDialogs_EuroSnP.pdf">DarkDialogs: Automated detection of 10 dark patterns on cookie dialogs</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-44"></a></strong><br>
+<strong>Daniel Kirkman</strong> (University of Edinburgh), <strong>Kami Vaniea</strong> (University of Edinburgh), <strong>Daniel W Woods</strong> (University of Edinburgh)</p>
+<p>Analysis of dark patterns in online cookie consent dialogs.</p>
+<p><strong><a href="https://arxiv.org/abs/2206.14855">SoK: Content Moderation in Social Media, from Guidelines to Enforcement, and Research to Practice</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-45"></a></strong><br>
+<strong>Mohit Singhal</strong> (The University of Texas at Arlington), <strong>Chen Ling</strong> (Boston University), <strong>Pujan Paudel</strong> (Boston University), <strong>Poojitha Thota</strong> (The University of Texas at Arlington), <strong>Nihal Kumarswamy</strong> (The University of Texas at Arlington), <strong>Gianluca Stringhini</strong> (Boston University), <strong>Shirin Nilizadeh</strong> (The University of Texas at Arlington)</p>
+<p>Biases and lack of training in content moderation in different dialects. Lack of consensus on what constitutes unallowed content. Facebook/Twitter have different definitions and examples of misinformation and hate speech. Most hate-speech and misinformation DNN approaches are trained on English datasets. Need of diverse participants (age, culture, gender, etc.). no one size fits all content moderation, platform users need to be treated equally. More collaborative human-AI decision making for determining misinformation and hate-speech. Ideally AI could account for the biases of humans when they are analyzing hate-speech and information.</p>
+<p><strong>Been here already? Detecting Synchronized Browsers in the Wild<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-47"></a></strong><br>
+<strong>Pantelina Ioannou</strong> (University of Cyprus), <strong>Elias Athanasopoulos</strong> (University of Cyprus)
+Browser fingerprinting allows for the unique identification of browsers by collecting device features. Browser synchronization connects different devices. Proposed algorithm detects whether http requests are from the same synchronized devices, using a user-study to test the accuracy.</p>
+<h3 id="session-crypto--formal-methods-iii">Session: Crypto + formal methods III</h3>
+<h3 id="1045---1210">10:45 - 12:10</h3>
+<p><strong><a href="https://eprint.iacr.org/2023/419">Asynchronous Remote Key Generation for Post-Quantum Cryptosystems from Lattices</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-48"></a></strong><br>
+<strong>Nick Frymann</strong> (University of Surrey), <strong>Daniel Gardham</strong> (University of Surrey), <strong>Mark Manulis</strong> (Universität der Bundeswehr München)</p>
+<p><strong><a href="https://muoitran.com/publications/revelio.pdf">Revelio: A Network-Level Attack Against the Privacy in the Lightning Network</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-49"></a></strong><br>
+<strong>Theo von Arx</strong> (ETH Zurich), <strong>Muoi Tran</strong> (ETH Zurich), <strong>Laurent Vanbever</strong> (ETH Zurich)</p>
+<p><strong><a href="https://eprint.iacr.org/2023/872">Conjunctive Searchable Symmetric Encryption from Hard Lattices</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-50"></a></strong><br>
+<strong>Debadrita Talapatra</strong> (IIT Kharagpur, India), <strong>Sikhar Patranabis</strong> (IBM Research, India), <strong>Debdeep Mukhopadhyay</strong> (IIT Kharagpur, India)
+Can make encrypted search strings that allow you to query encrypted databases without sharing the query.</p>
+<p><strong>Provable Adversarial Safety in Cyber-Physical Systems<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-51"></a></strong><br>
+<strong>John H. Castellanos</strong> (CISPA Helmholtz Center for Information Security), <strong>Mohamed Maghenem</strong> (CNRS France), <strong>Alvaro Cardenas</strong> (UC Santa Cruz), <strong>Ricardo G. Sanfelice</strong> (UC Santa Cruz), <strong>Jianying Zhou</strong> (Singapore University of Technology and Design)</p>
+<p><strong><a href="https://ris.utwente.nl/ws/files/303815289/main.pdf">AoT - Attack on Things: A security analysis of IoT firmware updates</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-54"></a></strong><br>
+<strong>Muhammad Ibrahim</strong> (Purdue University), <strong>Andrea Continella</strong> (University of Twente), <strong>Antonio Bianchi</strong> (Purdue University)</p>
+<p>IoT devices can be attacked by uploading a different firmware. Companion aps are also a source of vulnerability since they control IoT devices.</p>
+<p><strong>Comprehensively Analyzing the Impact of Cyberattacks on Power Grids<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-55"></a></strong><br>
+<strong>Lennart Bader</strong> (Fraunhofer FKIE &amp; RWTH Aachen University), <strong>Martin Serror</strong> (Fraunhofer FKIE), <strong>Olav Lamberts</strong> (Fraunhofer FKIE &amp; RWTH Aachen University), <strong>Ömer Sen</strong> (RWTH Aachen University &amp; Fraunhofer FIT), <strong>Dennis van der Velde</strong> (Fraunhofer FIT), <strong>Immanuel Hacker</strong> (RWTH Aachen University &amp; Fraunhofer FIT), <strong>Julian Filter</strong> (RWTH Aachen University), <strong>Elmar Padilla</strong> (Fraunhofer FKIE), <strong>Martin Henze</strong> (RWTH Aachen University &amp; Fraunhofer FKIE)</p>
+<p><strong>SoK: SoK: Rethinking Sensor Spoofing Attacks against Robotic Vehicles from a Systematic View Sensor Spoofing Attacks against Robotic Vehicles from a Systematic View<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-56"></a></strong><br>
+<strong>Yuan Xu</strong> (Nanyang Technological University), <strong>Xingshuo Han</strong> (Nanyang Technological University), <strong>Gelei Deng</strong> (Nanyang Technological University), <strong>Jiwei Li</strong> (Zhejiang University), <strong>Yang Liu</strong> (Nanyang Technological University), <strong>Tianwei Zhang</strong> (Nanyang Technological University)</p>
+<h3 id="session-trusted-computing-and-defenses">Session: Trusted computing and defenses</h3>
+<p><strong>faulTPM: Exposing AMD fTPMs’ Deepest Secrets<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-57"></a></strong><br>
+<strong>Hans Niklas Jacob</strong> (Technische Universität Berlin), <strong>Christian Werling</strong> (Technische Universität Berlin), <strong>Robert Buhren</strong> (Technische Universität Berlin), <strong>Jean-Pierre Seifert</strong> (Technische Universität Berlin)</p>
+<p><strong>CHERI-TrEE: Flexible enclaves on capability machines<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-58"></a></strong><br>
+<strong>Thomas Van Strydonck</strong> (KU Leuven), <strong>Job Noorman</strong> (KU Leuven), <strong>Jennifer Jackson</strong> (University of Birmingham), <strong>Leonardo Alves Dias</strong> (University of Birmingham), <strong>Robin Vanderstraeten</strong> (Vrije Universiteit Brussel), <strong>David Oswald</strong> (University of Birmingham), <strong>Frank Piessens</strong> (KU Leuven), <strong>Dominique Devriese</strong> (KU Leuven)</p>
+<p><strong>Watermarking Graph Neural Networks based on Backdoor Attacks<a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-59"></a></strong><br>
+<strong>Jing Xu</strong> (Delft University of Technology), <strong>Stefanos Koffas</strong> (Delft University of Technology), <strong>Oguzhan Ersoy</strong> (Radboud University), <strong>Stjepan Picek</strong> (Radboud University)</p>
+<h3 id="13th-international-workshop-on-socio-technical-aspects-in-security-morning"><strong>13th International Workshop on Socio-Technical Aspects in Security</strong> (morning)</h3>
+<p>Strength Comes in Different Shapes and Sizes: Blending Positive and Negative Security for a More Inclusive and Equitable Digital Ecosystem</p>
+<p>What We Do in the Shadows: How does Experiencing Cybercrime Affect Response Actions &amp; Protective Practices? Magdalene Ng, Maria Bada and Kovila P.L. Coopamootoo</p>
+<p>Increase in cybercrime sins the pandemic. Investigating responses to cybercrime victimization across different types of crime. Repeat victims are commonly studied in traditional crime, questions of how it applies to cybercrime. Gender and age differences in reactions to cyber crime and instances of re-victimization. Open-coding of types of cyber crime resulted in 8 types, and 9 types of responses. Some types of cyber crime are more common in repeated victims of cyber crimes. Most victims of multiple cyber crime experienced different types of crime.</p>
+<p>As Usual, I Needed Assistance of a Seeing Person: Experiences and Challenges of People with Disabilities and Authentication Methods Ahmet Erinola, Annalina Buckmann, Jennifer Friedauer, Asli Yardim and M. Angela Sasse</p>
+<p>Comparison of how different disabilities impact cybersecurity authentication methods. Often rely on assistants to complete security authentication. Some authentication methods are too difficult for certain impairments, like face ID or fingerprint ID for the visually impaired. Technological assistants and human assistants differ in how they are used to achieve authentication goals. None are fully accessible, and the disabled must use workarounds that negatively impact security.</p>
+<p>Talking Abortion (Mis)information with ChatGPT on TikTok Filipo Sharevski, Jennifer Vander Loop, Peter Jachim, Amy Devine and Emma Pieroni</p>
+<p>30% of tiktok users thought that at home abortions through herbs were safe. Misinformation not moderated on tiktok. How does chatGPT and knowledge of it impact how misinformation is assessed. Compared a video showing chat GTP generating misinformation about abortion herbs, vs. just the language over a picture of a flower. Another study was run after tiktok added a label that the content may be misinformation. ChatGPT was more trustworthy. Q: did anyone assess misinformation differently in the explicit/implicit conditions.</p>
+<h2 id="2nd-workshop-on-active-defense-and-deception">2nd Workshop on Active Defense and Deception</h2>
+<p><strong>How well does GPT phish people? An investigation involving cognitive biases and feedback</strong> Megha Sharma, Palvi Aggarwal, Kuldeep Singh, Varun Dutt</p>
+<p>Phishing attacks use cognitive biases to improve efficacy of tasks. Experiment study compares human-crafted and GPT-crafted phishing emails that are additionally designed to reflect major cognitive biases. Human participants had better performance against gpt-3 crafted emails, worse against human crafted emails. This trend was observable for all of the theorized biases of human behavior. People were more confident with the Human crafted phishing emails. Q: was this effect also observable within a trial type?</p>
+<ul>
+<li>Related to scam-baiting using chatGPT paper: could chatGPT be used for longer conversations with people instead of just phishing. It&rsquo;s possible that chatGPT can be used since it has a low cost and is constantly getting better. However LLMs can also be used as a tool to check to see if emails are phishing.</li>
+</ul>
+<p><strong>Honey Infiltrator: Injecting Honeytoken Using Netfilter</strong> Daniel Reti, Tillmann Angeli, Hans Dieter Schotten</p>
+<p>Tap device that injects honeytoken into application traffic. Possibility of adaptable honeypots that try to adjust behavior based on what attackers are searching for. i.e If attackers keep looking for files that don&rsquo;t exist, we could dynamically generate honeypots that fit what they are searching for.</p>
+<p><strong>Towards In-situ Psychological Profiling of Attackers Using Dynamically Generated Deception Environments – A Proof-of-Concept Proposal</strong>  Jacob Quibell</p>
+<p>Infer a profile of an attacker automatically based on the types of files they are trying to access. Generate documents for honeypots based on the different attacker profiles, what their motivations are, and what types of documents they would be looking for. Dynamically start up generation so that no resources are wasted. Potential for psychological inference based on individual characteristics, biases, etc.</p>
+<p><strong><a href="https://keep.lib.asu.edu/_flysystem/fedora/c7/Johnson_asu_0010E_22252.pdf">Decision-Making Biases in Cybersecurity: Measuring the Impact of the Sunk Cost Fallacy to Delay Attacker Behavior</a></strong>  Chelsea Johnson</p>
+<p>Sunk-cost fallacy makes attackers susceptible to wasting resources. Q: how does the risk associated with cyber deception make the sunk cost fallacy different. Participants chose a portal and solved some cypher text, and had the option to change to a new one. (wouldn&rsquo;t staying be beneficial since relearning the different cypher would take longer). Differences in the source of information about switching to the other portal.</p>
+<p><strong>Learning to Defend by Attacking (and Vice-Versa): Transfer Learning in Cyber-Security Games</strong>  Tyler Malloy, Cleotilde Gonzalez</p>
+<p>My presentation.</p>
+<p><strong>Oral Presentation: <a href="https://arxiv.org/pdf/2108.13980.pdf">Incorporating Adaptive Deception into CyberBattleSim for Autonomous Defense</a> Using a GA-Inspired Approach</strong>  Ryan Gabrys</p>
+<p>Added honeypots to cyberbattlesim environment. Evaluated different defense strategies. Generate new nodes based on a random combination of the features of the most likely nodes to be attacked. DQL is the best performing, is it using the features of the node to calculate value? could you make the new node based on an IRL approach, designing the node to maximize the RL function. Deception is less useful on longer episode length trials. Q: long-term deception: why is random performing better than credential lookups and tabular q-learning?</p>
+<p><strong>Oral Presentation: From Prey to Predator: A Use Case for Using Active Defense to Reshape the Asymmetrical Balance in Cyber Defense</strong>  Pei-Yu Huang, Yi-Ting Huang, Yeali S. Sun, Meng Chang
+Mittre attack. Engage framework.</p>
+<h3 id="interesting-papers-for-studies-in-human-decision-making-human-ai-teaming-cognitive-modelling-reinforcement-learning-instance-based-learning-human-factors-etc">Interesting papers for studies in human decision making, human-ai teaming, cognitive modelling, reinforcement learning, instance-based learning, Human Factors, etc.</h3>
+<ul>
+<li>
+<p><strong><a href="https://arxiv.org/abs/2206.14855">SoK: Content Moderation in Social Media, from Guidelines to Enforcement, and Research to Practice</a><a href="https://www.ieee-security.org/TC/EuroSP2023/program.html#eurosp2017-45"></a></strong> <strong>Yuan Xu</strong> , <strong>Xingshuo Han</strong> , <strong>Gelei Deng</strong>, <strong>Jiwei Li</strong>, <strong>Yang Liu</strong> , <strong>Tianwei Zhang</strong></p>
+</li>
+<li>
+<p><strong>The Bandit’s States: Modeling State Selection for Stateful Network Fuzzing as Multi-armed Bandit Problem</strong> Anne Borcherding, Mark Leon Giraud, Ian Fitzgerald and Jürgen Beyerer</p>
+</li>
+<li>
+<p><strong>Unsafe Behavior Detection with Adaptive Contrastive Learning in Industrial Control Systems</strong> Xu Zheng, Tianchun Wang, Samin Y. Chowdhury, Ruimin Sun and Dongsheng Luo.</p>
+</li>
+<li>
+<p><strong>Re-Envisioning Industrial Control Systems Security by Considering Human Factors as a Core Element of Defense-in-Depth</strong> Jens Pottebaum , Jost Rossel, Juraj Somorovsky  Yasemin Acar  Rene Fahr, Patricia Arias Cabarcos , Eric Bodden  and Iris Gräßler.</p>
+</li>
+<li>
+<p><strong>Fake it till you Detect it: Continual Anomaly Detection in Multivariate Time-Series using Generative AI,</strong> Gastón García González, Pedro Casas and Alicia Fernández</p>
+</li>
+<li>
+<p><strong>Assessing Network Operator Actions to Enhance Digital Sovereignty and Strengthen Network Resilience: A Longitudinal Analysis during the Russia-Ukraine Conflict,</strong> Muhammad Yasir Muzayan Haq, Abhishta, Raffaele Sommese, Mattijs Jonker and Lambert J.M. Nieuwenhuis</p>
+</li>
+<li>
+<p><strong>Strength Comes in Different Shapes and Sizes: Blending Positive and Negative Security for a More Inclusive and Equitable Digital Ecosystem</strong> Lizzie Coles-Kemp</p>
+</li>
+<li>
+<p><strong>What We Do in the Shadows: How does Experiencing Cybercrime Affect Response Actions &amp; Protective Practices?</strong> Magdalene Ng, Maria Bada and Kovila P.L. Coopamootoo</p>
+</li>
+<li>
+<p><strong>How well does GPT phish people? An investigation involving cognitive biases and feedback</strong> Megha Sharma, Palvi Aggarwal, Kuldeep Singh, Varun Dutt</p>
+</li>
+<li>
+<p><strong>Towards In-situ Psychological Profiling of Attackers Using Dynamically Generated Deception Environments – A Proof-of-Concept Proposal</strong>  Jacob Quibell</p>
+</li>
+<li>
+<p><strong>Decision-Making Biases in Cybersecurity: Measuring the Impact of the Sunk Cost Fallacy to Delay Attacker Behavior</strong>  Chelsea Johnson</p>
+</li>
+</ul>
+]]></content></item><item><title>Security and Human Behaviour 2023</title><link>tylerjamesmalloy.github.io/posts/shb-2023/</link><pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate><guid>tylerjamesmalloy.github.io/posts/shb-2023/</guid><description>The following are my notes taken during the SHB workshop. I have included the names of presenters but it should be noted that these are my own general thoughs and reactions while attending these presentations, and not necessarily the views and opinions of the presenters.
+Day 1 Session 1: Privacy Lorrie Cranor: Designing Visable and Useful Privacy Icons: Laura Brandimarte: Parental Trust and Automated Detection of Cyber Predators: One issue with the use of tools to ensure protection against cyber predators is algorithm aversion in the general public.</description><content type="html"><![CDATA[<p>The following are my notes taken during the SHB workshop. I have included the names of presenters but it should be noted that these are my own general thoughs and reactions while attending these presentations, and not necessarily the views and opinions of the presenters.</p>
+<h2 id="day-1">Day 1</h2>
+<h3 id="session-1-privacy">Session 1: Privacy</h3>
+<ul>
+<li><strong>Lorrie Cranor</strong>: Designing Visable and Useful Privacy Icons:</li>
+<li><strong>Laura Brandimarte</strong>: Parental Trust and Automated Detection of Cyber Predators: One issue with the use of tools to ensure protection against cyber predators is algorithm aversion in the general public. People often feel like they are a part of a unique group who may be unjustly harmed by the application of algorithms, even though many people agree that the general public should have trust in algorithms. This can introduce challenges in the detection of online predation as parents may not trust algorithms to handle their children&rsquo;s interactions online.</li>
+<li><strong>Sonam Samat</strong></li>
+<li><strong>Tesary Lin</strong></li>
+<li><strong>Geoffrey Tomaino</strong></li>
+<li>Discussion</li>
+</ul>
+<h3 id="session-2-security">Session 2: Security</h3>
+<ul>
+<li><strong>Nicolas Christian</strong></li>
+<li><strong>Serge Egelman</strong></li>
+<li><strong>Tony Vance</strong></li>
+<li><strong>Elissa Redmiles</strong></li>
+<li><strong>Rainer Böhme</strong></li>
+<li>Discussion</li>
+</ul>
+<h3 id="session-3-crime-policy-and-risk">Session 3: Crime, Policy, and Risk</h3>
+<ul>
+<li><strong>David Livingstone Smith</strong></li>
+<li><strong>Sngus Bancroft</strong></li>
+<li><strong>Damon McCoy</strong></li>
+<li><strong>Li Jiang</strong></li>
+<li>Discussion</li>
+</ul>
+<h3 id="session-4-behavior">Session 4: Behavior</h3>
+<ul>
+<li><strong>Coty Gonzales</strong></li>
+<li><strong>Rick Wash</strong></li>
+<li><strong>Julie Downs</strong></li>
+<li><strong>Bart Knijneburg</strong></li>
+</ul>
+<h2 id="day-2">Day 2</h2>
+<h3 id="session-5-users">Session 5: Users</h3>
+<ul>
+<li><strong>Norman Sadeh</strong></li>
+<li><strong>Sophie van der Zee</strong></li>
+<li><strong>Kevin Roundy</strong></li>
+<li><strong>Florian Schaub</strong></li>
+<li><strong>Cristobal Cherye</strong></li>
+</ul>
+<h3 id="session-6-trust">Session 6: Trust</h3>
+<ul>
+<li><strong>Avi Collis</strong></li>
+<li><strong>Ahana Datta</strong></li>
+<li><strong>Ananya Sen</strong></li>
+<li><strong>Yixin Zou</strong></li>
+<li><strong>Tyler Moore</strong></li>
+</ul>
+<h2 id="post-conference-thoughts">Post Conference Thoughts</h2>
+]]></content></item><item><title>Learning to Learn</title><link>tylerjamesmalloy.github.io/posts/learning-to-learn/</link><pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate><guid>tylerjamesmalloy.github.io/posts/learning-to-learn/</guid><description>One interesting development in my research interests is the unexpected focus on &amp;rsquo;learning to learn&amp;rsquo; that many of my recent papers and projects have been focused on. During my PhD, I had shyed away from the more complex topics in cognitive modeling, such as meta learning. This decision was in part motivated by my interests in understanding the most basic and fundamental aspects of human and machine learning. Another aspect of this decision was the increased difficulty and potential problems that are associated with designing more complex tasks.</description><content type="html"><![CDATA[<p>One interesting development in my research interests is the unexpected focus on &rsquo;learning to learn&rsquo; that many of my recent papers and projects have been focused on. During my PhD, I had shyed away from the more complex topics in cognitive modeling, such as meta learning. This decision was in part motivated by my interests in understanding the most basic and fundamental aspects of human and machine learning. Another aspect of this decision was the increased difficulty and potential problems that are associated with designing more complex tasks.</p>
 <p>The overall motivation behind much of my research is in bridging the gap between the understanding of how the human mind functions in reality, and how we choose to design machine learning methods. The hope is that through an increased understanding of how the human mind achieve behavioral goals, we can design more human-like machine learning methods that better reflect cognative realities. However, this motivation presupposes the usefulness of machine learning methods that are similar to the human mind.</p>
 <p>The simplest justification for designing human-like ML is that humans excell at a variety of tasks, such as learning to learn, and if we can build ML models that reflect human abilities in these ways, we can improve them. However, much of the research in AI is not interested in doing things in a human-like manner, rather preferring to describe some loss function and optimize model behavior relative to it.</p>
 <p>While many recent methods in machine learning, as well as classical approaches, do draw heavily from motivations related to human learning, much of the recent success in areas like Large Language Models (LLMs) appear to go against what we know about human learning and behavior. One specific example is that models that are designed for conversation and text generation typically do so by iteratively predicting the next word, and maximizing the probability of that word relative to the dataset that it is trained on. One major factor of these models is that they are stateless, meaning they aren&rsquo;t basing their pedictions based on some existing model of the world or an environment they exist in. This obviously seems very disconnected from the way that humans generate language, which is intrisically tied to the environment that they are in which defines their goals, preferences, and desires, and in turn the language that they generate.</p>
@@ -155,4 +398,4 @@ This was my first accepted paper, I submitted it to the conference Reinforcement
 <p>That all sounds like a lot of things! So this year is looking to be a busy one for me. However, I think that a lot of these goals are both interesting and necessary for my future plans, so I will try to take that motivation forward in pursuing these goals. Generally I am not one for clearly defined &rsquo;new years resolutions&rsquo;, because I try to improve myself at a slow and stedy pace, to increase the chance of making lasting changes and achieving long term goals. But I do think that it is good to take the time at the beginning of the year or even just the changing of the seasons to reflect on aspirations, goals, and so on. And there is no time like the last year of a PhD to reflect on these things!</p>
 <p>Concretely, the priorities I have are focused around the completion of my PhD since I hope to do that with as few complications as possible, and my position currently affords a good opertunity for that. So my main focuses are towards the research most central to my PhD, as well as things that will be useful for my future as a researcher including relevant research for potential postdoc or other positions. Those specific goals definitely seem relatively focused, and I can always add on top of that some of the other ideas I have depending on whether I have the time for them.</p>
 <p>Some of the personal aspirations I have other than research and job prospect related things are to read more fiction, as I do end up spending a good amount of time reading books and papers related to my research interests, and I&rsquo;d like to get back into my hobby of science-fiction and fantasy. I did get a great christmas gift of two books by JRR Tolkien that I am excited to read, and I am also in the middle of a fantastic high-fantasy book called &ldquo;The Priory of the Orange Tree&rdquo; by Samantha Shannon. I hope to read those and other books this year, as I have been enjoying slowly getting back into reading for fun. I think it is useful to put down my thoughts and aspirations in this blog as it allows me to reflect on them more than simply thinking about them to myself.</p>
-]]></content></item><item><title/><link>tylerjamesmalloy.github.io/posts/shb-2023/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>tylerjamesmalloy.github.io/posts/shb-2023/</guid><description/><content type="html"></content></item></channel></rss>
+]]></content></item></channel></rss>
