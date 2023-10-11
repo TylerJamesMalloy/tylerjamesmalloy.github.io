@@ -7,7 +7,7 @@ images:
 tags:
   - discussion
   - large language models
-  - security 
+  - cybersecurity 
 ---
 
 I recently completed the last meeting with a small group of mentees from my alma mater UBC that was put together to give undergraduate students at different points in their career some insight into life after undergrad. I think it was a great experience for myself, as I had little previous work as a direct mentor, and hopefully the mentees felt the same way. The remainder of this blog post is some reflections from my experience as a mentor and the life lessons I have thought of and tried to discuss with them.
