@@ -6,6 +6,7 @@ toc: false
 images:
 tags:
   - conference
+  - cybersecurity
 ---
 
 The following are my notes that I took during the IEEE European Symposium on Security and Privacy. It was a great experience and I tired to attend every lecture and find the papers that were discussed during them. Some of the 
