@@ -3,7 +3,6 @@ title: "What's in a Representation?"
 date: 2022-08-29
 draft: false
 toc: false
-images:
 tags:
   - discussion
 ---

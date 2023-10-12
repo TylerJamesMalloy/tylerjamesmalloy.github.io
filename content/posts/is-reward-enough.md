@@ -3,7 +3,6 @@ title: "Is Reward Enough"
 date: 2022-01-17
 draft: false
 toc: false
-images:
 tags:
   - review
 ---

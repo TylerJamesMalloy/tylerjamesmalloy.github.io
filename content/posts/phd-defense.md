@@ -3,7 +3,6 @@ title: "PhD Defense"
 date: 2022-11-10
 draft: false
 toc: false
-images:
 tags:
   - presentation
 ---

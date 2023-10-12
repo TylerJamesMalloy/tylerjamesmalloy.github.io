@@ -3,7 +3,6 @@ title: "Wordl Rl"
 date: 2022-02-03
 draft: false
 toc: false
-images:
 tags:
   - discussion
 ---

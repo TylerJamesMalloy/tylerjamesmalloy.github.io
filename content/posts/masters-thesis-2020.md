@@ -3,7 +3,6 @@ title: "Masters Thesis 2020"
 date: 2021-12-28
 draft: false
 toc: false
-images:
 tags:
   - papers
 ---

@@ -3,7 +3,6 @@ title: "Job Security"
 date: 2023-04-05
 draft: false
 toc: false
-images:
 tags:
   - discussion
   - large language models

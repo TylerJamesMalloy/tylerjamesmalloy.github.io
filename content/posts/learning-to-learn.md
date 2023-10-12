@@ -3,7 +3,6 @@ title: "Learning to Learn"
 date: 2023-06-12
 draft: false
 toc: false
-images:
 tags:
   - discussion
   - transfer of learning

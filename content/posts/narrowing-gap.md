@@ -3,7 +3,6 @@ title: "Narrowing The Gap With LLMs"
 date: 2023-02-14
 draft: false
 toc: false
-images:
 tags:
   - presentation
   - large language models

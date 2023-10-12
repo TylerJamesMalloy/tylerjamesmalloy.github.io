@@ -3,7 +3,6 @@ title: "Beyond Reward"
 date: 2022-04-07
 draft: false
 toc: false
-images:
 tags:
   - discussion
   - reinforcement learning 

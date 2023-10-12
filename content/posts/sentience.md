@@ -3,7 +3,6 @@ title: "Sentience and World Representations in LLMs"
 date: 2023-01-24
 draft: false
 toc: false
-images:
 tags:
   - review
 ---

@@ -3,7 +3,6 @@ title: "New Year 2022"
 date: 2022-01-03
 draft: false
 toc: false
-images:
 tags:
   - personal
 ---

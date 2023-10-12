@@ -3,7 +3,6 @@ title: "Predicting Human Choice"
 date: 2021-12-15
 draft: false
 toc: false
-images:
 tags:
   - papers
 ---
