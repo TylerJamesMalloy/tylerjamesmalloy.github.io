@@ -210,6 +210,207 @@
 <ul>
 <li>I was part of this discussion</li>
 </ul>
+]]></content></item><item><title>AAAI Symposium on Generative Models in Cognitive Architectures</title><link>tylerjamesmalloy.github.io/posts/fss-2023/</link><pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate><guid>tylerjamesmalloy.github.io/posts/fss-2023/</guid><description>AAAI Fall Symposium Series - Integration of Generative Models in Cognitive Architectures Introduction (John Laird) Introduction to Structure and Themes of Symposium John Laird Cognitive architectures need help from generative models. Multiple representations of knowledge are relevant for the design and structure of cognitive architectures. &amp;lsquo;Best match to brain structure for dynamic resting brain imaging; LLMs: Transformers interesting because they can determine which features of the prompt are relevant for predicting the next words.</description><content type="html"><![CDATA[<h1 id="aaai-fall-symposium-series---integration-of-generative-models-in-cognitive-architectures">AAAI Fall Symposium Series - Integration of Generative Models in Cognitive Architectures</h1>
+<h2 id="introduction-john-laird"><strong>Introduction</strong> (John Laird)</h2>
+<h3 id="introduction-to-structure-and-themes-of-symposium-john-laird">Introduction to Structure and Themes of Symposium John Laird</h3>
+<ul>
+<li>Cognitive architectures need help from generative models.</li>
+<li>Multiple representations of knowledge are relevant for the design and structure of cognitive architectures.</li>
+<li>&lsquo;Best  match to brain structure for dynamic resting brain imaging;</li>
+<li>LLMs: Transformers interesting because they can determine which features of the prompt are relevant for predicting the next words. Many believe that aspects of CAs such as meta cognition will emerge naturally from LLMs.</li>
+<li><a href="https://arxiv.org/pdf/2308.11432.pdf">A survey on large language model based autonomous agents</a>  <a href="https://arxiv.org/pdf/2309.07864.pdf">The rise and potential of large language model based agents</a></li>
+<li>Limitations of LLMs: No online learning, odd situation of being &lsquo;stuck&rsquo; in 2021. Bard doesn&rsquo;t quite have this issue. One of the points of the workshop is the promise of using cognitive architectures to benefit the limitations of LLMs, and vice-versa.</li>
+<li>Q: What are the limitations of the use of transformers over RNNs which have seem to be no longer as relevant? A: Transformers appear to have some recurrent components, but they usually are not trained online, so there appear to be large wholes in GMs and what we want out of cognition.</li>
+<li>Q: What is the status of the physical symbol system hypothesis: A Symbolic processing at some level is necessary but not sufficient. <a href="https://arxiv.org/abs/2306.13150">Paul Rossenbloom&rsquo;s paper</a> goes into this question.</li>
+</ul>
+<h3 id="integrating-large-language-models-and-cognitive-architectures-exploring-synergistic-approaches-for-ai-agents-oscar-javier-romero-lópez-john-zimmerman-aaron-steinfeld-and-anthony-tomasic">Integrating Large Language Models and Cognitive Architectures: Exploring Synergistic Approaches for AI Agents: Oscar Javier Romero López, John Zimmerman, Aaron Steinfeld and Anthony Tomasic</h3>
+<ul>
+<li>Propose three methods of integrating LLMs into CAs. Nero-symbolic, modular, and agency approach.</li>
+<li>Running example of cognitive agent application, assisting a blind person navigating.</li>
+<li>Modular approach: Assumes the common model of cognition.</li>
+<li>Cognitively augmented large language model. CA used to retrieve information about the semantic relationships if words in the context of a query, such as downtown, resolved based on time, contextual information
+<ul>
+<li>This seems like an odd application given that LLMs are traditionally much better at referent resolution than CAs. Wouldn&rsquo;t it be better to just include that information into the LLM prompt?</li>
+</ul>
+</li>
+<li>Leveraging LLMs to support multi-modal perception and action. Generate a semantic relationship of a prompt input that can be then used by a CA to do reasoning.</li>
+<li>Semantic and episodic applications, automatically populate ontologies. Or generate ACT-R productions for a specific application</li>
+<li>Internal simulation for anticipation and planning, using an LLM to chain sequences of events in a perception-action-perception. Ask what will happen next. Can use GPT to assign a probability of what till happen next based on context.</li>
+<li>Neuro-symbolic approach: Clarion, focus on the action center subsystem, similar to the procedural memory of other cognitive architectures.  Generate generalization or specialization rules that can be applied onto the clarion architecture.</li>
+<li>Agency approach: Society of mind, Minsky. Many receiving agents that are receiving direction from the global work space. Agents play different roles, may focus on one aspect of the task, pairwise or supervisory role.</li>
+<li>Multiple CA + LLMs interacting collaboratively to exchange knowledge and intentions with humans.</li>
+</ul>
+<p>Commonalities between all three aproaches, all use perception, action, and working memory. All use LLMs to convert symbols into natural language and vice-versa. Main difference between these approaches is the level of integration and the robustness. Neuro-symbolic is tightly integratesm agency is looselym and the modular is between the two.</p>
+<p>tool former, how does this relate? Close to the modular approach in that we query external APIs.</p>
+<h3 id="cognitive-architectures-for-language-agents-theodore-sumers-shunyu-yao--karthik-narasimhan-thomas-l-griffiths">Cognitive Architectures for Language Agents Theodore Sumers, Shunyu Yao,  Karthik Narasimhan, Thomas L. Griffiths</h3>
+<ul>
+<li>Using language models to combine with value functions learned by robotic systems. Saycan and Generative agents. Interested in extending LLMs into different environments, different types of feedback goals for the agent, etc.</li>
+<li>Newel and Simon thermostat agent control flow production system. We can think of language models as a distribution over productions. This conceptualizes prompt engineering as a bias over the initial distributions of productions, but all changes to the prompt impact the production, some in unforeseen ways.
+<ul>
+<li>Shifted the posterior over productions by giving examples but there is no proof that we actually shifted the posterior. And the amount of the shift isn&rsquo;t quantifiable. How useful is this conceptualization?</li>
+</ul>
+</li>
+<li>CoALA: Uses memory, action space, and decision spaces as a simplified architecture of cognition. Operates in the form of natural language instead of logical formulas.</li>
+<li>Both external actions interacting with environments as well as internal actions involving reasoning, retrieval, and learning.</li>
+<li>Decision making techniques: Output the action directly, output several actions and evaluate each, or generate many and simulate each iteratively in multiple steps. Ideally we can split these decisions into cycles of planning and execution.
+SayCan Ahn 2022, ReAct Yao 2022, Voyager Wang 2023, Generative Agents Park 2023, Tree of thoughts 2023.</li>
+<li>Gap in applications is updating agent code for decision-making. Learn new procedures.</li>
+<li>CoALA abstractions to help develop language agents.</li>
+<li>Raises questions of the role of memory in decision-making. Useful to think of committing memory to long term memory as an active decision making process.</li>
+<li>Belief that more capabilities of large language models means there is less structure required, but there needs to be some architecture, some interface to a motor system or some action processing.</li>
+</ul>
+<h2 id="offline-integrations--content-david-reitter"><strong>Offline Integrations / Content</strong> (David Reitter)</h2>
+<h3 id="automating-knowledge-acquisition-for-content-centric-cognitive-agents-using-llms-sergei-nirenburg-sanjay-sarma-oruganti-venkata-jesse-english-and-marjorie-mcshane">Automating Knowledge Acquisition for Content-Centric Cognitive Agents Using LLMs: Sergei Nirenburg, Sanjay Sarma Oruganti Venkata, Jesse English and Marjorie McShane</h3>
+<ul>
+<li>Language endowed intelligent systems automatically collecting computational lexicons or ontologies. Typically requires human knowledge, a significant bottleneck</li>
+<li>Generate text meaning representations based on lexicons, ontologies, and working memory.</li>
+<li>Cognitive architectures for LEIAs optionally use an external dataset of language to supplement their knowledge when they lack the relevant information in their ontology.</li>
+<li>OntoGen creates example sentences that can be used as prompts to LLMs to determine the features of new lexical entries that can be bootstrapped into the lexicon.</li>
+<li>Generate multi word expressions and validate them based on whether they produce legitimate sentences. How is this done? COCA corpus search.</li>
+</ul>
+<h3 id="generating-chunks-for-cognitive-architectures-goonmeet-kaur-bajaj-kate-pearce-sean-kennedy-othalia-larue-alexander-hough-jayde-king-christopher-myers-and-srinivasan-parthasarathy">Generating Chunks for Cognitive Architectures: Goonmeet Kaur Bajaj, Kate Pearce, Sean Kennedy, Othalia Larue, Alexander Hough, Jayde King, Christopher Myers and Srinivasan Parthasarathy</h3>
+<ul>
+<li>Data processing needs of AI vs Cognitive Architectures.
+<ul>
+<li>CAs: Require constant knowledge engineering, time consuming. Want to automatically generate chunks for CAs.</li>
+</ul>
+</li>
+<li>Analogical reasoning with ACT-R. Involves retrieval, mapping, and transfer. Structure mapping engine used to understand the similarity between source domain and the application domain.</li>
+<li>Want to extract subject object relations from unstructured language. LLMs are great at this.</li>
+<li>Many triplets were filtered, how? Is this domain specific? If it is than does the whole pipeline require this domain specific knowledge, to remove bad examples.</li>
+<li>Another approach is to directly prompt the language model to generate chunks, and rank them. Can be difficult due to low accuracy, could be improved by ranking the triples based on the relevance of the task to improve accuracy.</li>
+</ul>
+<h3 id="opportunities-and-challenges-in-applying-generative-methods-to-exploring-and-validating-the-common-model-of-cognition-catherine-sibert-and-sönke-steffen">Opportunities and Challenges in Applying Generative Methods to Exploring and Validating the Common Model of Cognition: Catherine Sibert and Sönke Steffen</h3>
+<ul>
+<li>Using fMRI analysis to determine the connection between different regions using dynamic causal modeling.</li>
+<li>Evaluating predictions of the best fit, difficult due to the predictions of multiple different regions of the brain. Compared with six different alternative architectures.
+<ul>
+<li>Mentioned the issue of evaluation, how well can this evaluate specific theories like whether action impacts long-term memory, if it is an active process. Would this be possible with this comparison?</li>
+</ul>
+</li>
+<li>Expanding the common model, perception is typically mapped to just visual perception, and want to incorporate visual and auditory, different theories of how these two connect differently.</li>
+<li>Issue of this analysis, more complex models are more likely to provide a good fit for observed data.</li>
+<li>Data issue of using bad data to predict the observations, but there is still a clear ranking of models based on complexity. Could be used to compare models of different complexity, based on the improvement from bad to good data.</li>
+</ul>
+<h3 id="comparing-lmms-for-prompt-enhanced-act-r-and-soar-model-development-a-case-study-in-cognitive-simulation-siyu-wu-rodrigo-souza-frank-ritter-and-walter-lima">Comparing LMMs for Prompt-Enhanced ACT-R and Soar Model Development: A Case Study in Cognitive Simulation: Siyu Wu, Rodrigo Souza, Frank Ritter and Walter Lima</h3>
+<ul>
+<li>Difficult to extend new applications of models like ACT-R, LLMs can potentially fix these issues. LLMs are used to build models. Compared GPT-4 and Bard in their ability to develop CA models in an interactive methodology.</li>
+<li>Ask user what they know of ACT-R, educate them on the functionality of the model, and get them to produce the chunks that they think might be relevant. Human-in-the loop has model produce chunks and evaluate them.</li>
+<li>Human feedback can improve issues of syntax and other qualities that the GPT model gets wrong.</li>
+</ul>
+<h3 id="behavior-prediction-using-llms-anthony-harrison-laura-hiatt-and-greg-trafton">Behavior Prediction using LLMs: Anthony Harrison, Laura Hiatt and Greg Trafton</h3>
+<ul>
+<li>Using CAs to help LLMs help CAs to do cognitive models.</li>
+<li>Smaller and more restricted tasks than language.</li>
+<li>Try a smaller model using just a single transformer with a single head.</li>
+<li>Training GPT with implicit data required to complete tasks, and see if it can then predict human behavior while they are playing that same task.</li>
+<li>Is there a benefit to mixing human and synthetic data in pre-training GPT models? This is what I am testing for phishing email classification currently.</li>
+</ul>
+<h2 id="individual-module-extensions-to-cognitive-architectures-christian-lebiere"><strong>Individual Module Extensions to Cognitive Architectures</strong> (Christian Lebiere)</h2>
+<h3 id="exploiting-language-models-as-a-source-of-knowledge-for-cognitive-agents-james-kirk-robert-wray-and-john-laird">Exploiting Language Models as a Source of Knowledge for Cognitive Agents: James Kirk, Robert Wray and John Laird</h3>
+<ul>
+<li>Can language models be an effective source of knowledge.
+<ul>
+<li>Indirect extraction</li>
+<li>direct extraction</li>
+<li>model control</li>
+</ul>
+</li>
+<li>Interactive task learning: user would need to describe the actions for an AI agent to take or the gols that it needs to achieve. With LLMs, we can instantiate the high level goal from the human with relevant information provided by the cognitive architecture.</li>
+<li>To solve this task the model asks the human for in the loop responses of instructions for sub-tasks of actions, which allows it to fill in gaps of its knowledge.</li>
+<li>Challenged of direct extraction of information, accuracy, relevance, interpretability, and other factors.  Matching these goals with human expectations is done through human oversight.</li>
+<li>SOAR model is augmented with the ability to query the LLM API for symbolic working memory information.</li>
+<li>Search tree analysis and repair selection STARS. Beam search for many responses, evaluate them and repair mismatches with re-prompting, prompt LLM to select candidate, query the human in the loop for a conflict resolution.</li>
+</ul>
+<h3 id="using-large-language-models-in-the-companion-cognitive-architecture-a-case-study-and-future-prospects-constantine-nakos-and-kenneth-forbus">Using Large Language Models in the Companion Cognitive Architecture: A Case Study and Future Prospects: Constantine Nakos and Kenneth Forbus</h3>
+<ul>
+<li>Companion cognitive architecture:</li>
+<li>Software social organisms,</li>
+<li>Uses semantic information in the form of lexical statements about facts that are used for performing reasoning.</li>
+<li>Difficult for companion to disambiguate which of the candidate  theories that it generates are correct.</li>
+<li>Alight wikipedia sentences into facts, in the form of query cases that are rule like concepts mapping semantics onto facts.</li>
+<li>LLMs used for disambiguation, to widdle down the number of interpretations that could explain something.</li>
+</ul>
+<h3 id="on-using-generative-models-in-a-cognitive-architecture-for-embodied-agents-dongkyu-choi">On Using Generative Models in a Cognitive Architecture for Embodied Agents: Dongkyu Choi</h3>
+<ul>
+<li>Vision language action Trasformer based models could be used in robotics settings to control embodied agents while leveraging the foundation models that are pretrained on a variety of domains.</li>
+<li>Some of the knowledge contained in LLMs is &lsquo;generalist&rsquo; and not &lsquo;common sense&rsquo; in that it is highly specific knowledge that can&rsquo;t be reasoned through common sense, but because there are many texts about those topics online, the model has knowledge of it.</li>
+<li>GAI and GMs for embodied agents are typically either planning based or action based, or hybrid approaches.</li>
+<li>Newer task is to form executable action commands through a action translator, which may require some common sense reasoning for applications in house or real world settings, but not necessarily in industrial or factory domain, where on the fly learning is more relevant.</li>
+</ul>
+<h3 id="proposal-for-cognitive-architecture-and-transformer-integration-online-learning-from-agent-experience-john-laird-robert-wray-steven-jones-james-kirk-and-peter-lindes">Proposal for Cognitive Architecture and Transformer Integration: Online Learning from Agent Experience: John Laird, Robert Wray, Steven Jones, James Kirk and Peter Lindes</h3>
+<h1 id="thursday-26-oct"><strong>Thursday, 26 Oct</strong></h1>
+<h2 id="impact-across-multiple-traditional-cognitive-architecture-modules-andrea-stocco"><strong>Impact Across Multiple Traditional Cognitive Architecture Modules</strong> (Andrea Stocco)</h2>
+<h3 id="psychologically-valid-generative-agents-a-novel-approach-to-agent-based-modeling-in-social-sciences-konstantinos-mitsopoulos-ritwik-bose-brodie-mather-archna-bhatia-kevin-gluck-bonnie-dorr-christian-lebiere-and-peter-pirolli">Psychologically-Valid Generative Agents: A Novel Approach to Agent-Based Modeling in Social Sciences: Konstantinos Mitsopoulos, Ritwik Bose, Brodie Mather, Archna Bhatia, Kevin Gluck, Bonnie Dorr, Christian Lebiere and Peter Pirolli</h3>
+<ul>
+<li>Public policy impacting individual behavior, but epidemiological models dont take into account the impact of policy on the behavior of individuals.</li>
+<li>Simulated agents interacting in a social network to predict the spread of diseases like covid-19. Psychologically grounded behavior predictions that impact the network of social interactions.</li>
+<li>LLMs used to generate natural language that is used for communication between members of the network,</li>
+<li>Extracting beliefs and sentiments from online social media sources.</li>
+<li>Agent based modelling used to explain complex systems, not using mathematical equations. Simple rules that define the interaction of agents in a network.</li>
+<li>Emergent dynamics resulting from the interaction of the agents.</li>
+<li>Nodes of the network perceive the global and local information.
+<ul>
+<li>Seems like in the covid case, people arent basing their decision making on experience in terms of making a choice to wear a mask or get a vaccine.</li>
+</ul>
+</li>
+<li>Predictions and observations of the proportion of the population wearing mask is accurate to real world observations in California.</li>
+<li>Generative Agents: Interactive simulacra of human behavior. System changes what they perceived based on their memory stream. These have been applied onto modelling virus spread in agent based modeling for social networks. Can&rsquo;t scale this network to large amounts due to the requirements of the LLM.</li>
+<li>CAs are instantiated based on social media posts, their beliefs and attitudes, and then they are updated by taking new social media and agent communication. Stance detection is used to analyze the beliefs of other agents, their theory of mind.</li>
+</ul>
+<h3 id="bridging-generative-networks-with-the-common-model-of-cognition-robert-west-spencer-eckler-brendan-conway-smith-nico-turcas-eilene-tomkins-flanagan-and-mary-kelly">Bridging Generative Networks with the Common Model of Cognition: Robert West, Spencer Eckler, Brendan Conway-Smith, Nico Turcas, Eilene Tomkins-Flanagan and Mary Kelly</h3>
+<ul>
+<li>Representation agnostic: Neural-symbolic, neural networks, symbolic, nets, etc.</li>
+<li>Pipeline model of the common model of cognition involves the integration of different perceptual faculties into working memory.</li>
+<li>One issue of how working memory integrates this is that spontaneous memory retrievals can be disruptive, so we can add a middle memory system to bridge the two.</li>
+<li>This has been used to model emotional changes, shadow productions which recommend productions (of emotions?) but cant fully control the system.</li>
+<li>Middle memory productions can be combined to connect things like visual observations and motor control affordances or emotional reactions to perception.</li>
+<li>Shadow production can be improved through utility feedback, so that the productions that lead to high rewarding situations are made to be more common, likely to continue producing.</li>
+</ul>
+<h3 id="a-proposal-for-a-language-model-based-cognitive-architecture-kobe-knowles-michael-witbrock-gillian-dobbie-and-vithya-yogarajan">A Proposal for a Language Model Based Cognitive Architecture: Kobe Knowles, Michael Witbrock, Gillian Dobbie and Vithya Yogarajan</h3>
+<ul>
+<li>Language model based cognitive architecture (LMCA).</li>
+<li>GPT can&rsquo;t identify programming problems where you switch the definition of terms like len and print so that they are opposites.</li>
+<li>Confabulation, over fitting to training data, and inefficient with data.</li>
+<li>Thoughts generated by cognitive architecture can impact the generation of thought.</li>
+</ul>
+<h2 id="alternative-integrationsunifications-of-generative-models-and-cognitive-architecture--paul-rosenbloom"><strong>Alternative Integrations/Unifications of Generative Models and Cognitive Architecture</strong>  (Paul Rosenbloom)</h2>
+<h3 id="the-grounding-problem-an-approach-to-the-integration-of-cognitive-and-generative-models-mary-lou-maher-dan-ventura-and-brian-magerko">The Grounding Problem: An Approach to the Integration of Cognitive and Generative Models: Mary Lou Maher, Dan Ventura and Brian Magerko</h3>
+<ul>
+<li>Symbolic systems in cognitive architectures vs. connectionist methods.</li>
+<li>How can AI systems be grounded in a world where they have no direct interaction, claim was that the grounding is between symbols and internal grounding, without external interaction.</li>
+<li><a href="https://arxiv.org/abs/2304.01481">The vector grounding problem</a>. Performing numerical operations on a numerical operation of symbols, and that when you decode it the meaning is retained through those mathematical operations. The method of achieving grounding in connectionist methods where the input are words, tokens, etc, associated with some external information like sounds, visual information, etc.</li>
+<li>referential grounding connects word/symbols to some notion that exists in the world.</li>
+<li>Can either ground concepts in symbols or vectors.</li>
+<li>Integrating CA and Generative models to replicate human creativity or supplement humans doing creative tasks.</li>
+<li>Wundt curve, if something is highly similar or dissimilar then it is uninteresting or difficult, and the midpoint aids in creativity.</li>
+<li>Easier for AI is Combinatorial creativity where two or more concepts are combined into a more mid-point between those concepts, more difficult is transofrmational where the boundry is expanded and the new idea is outside the &lsquo;box&rsquo;.</li>
+<li>VAE embeddings for symbols, trying to keep the embeddings grounded throughout the formation of the representations of symbols.</li>
+</ul>
+<h3 id="cognitive-architecture-toward-common-ground-sharing-among-humans-and-generative-ais-trial-modeling-on-model-model-interaction-in-tangram-naming-task-junya-morita-tatsuya-yui-takeru-amaya-ryuichiro-higashinaka-and-yugo-takeuchi">Cognitive Architecture Toward Common Ground Sharing Among Humans and Generative AIs: Trial Modeling on Model-Model Interaction in Tangram Naming Task: Junya Morita, Tatsuya Yui, Takeru Amaya, Ryuichiro Higashinaka and Yugo Takeuchi</h3>
+<ul>
+<li>This talk focuses on concertizing cognitive models by generative AI towards a common ground between humans and AIs.</li>
+<li>Representation of the information used by cognitive models in a way that is more easy to understand by humans.</li>
+<li>Shannon communication channel, for communication between humans and AI, and vice-versa. Miscommunication is explained by different interpretations of ambiguous communication information.</li>
+<li>Tengram naming task between human participants, they explain verbally the visual information that they are both observing, with some slight differences in the rotation of the abstract images.</li>
+<li>Holistic vs analytical utterances used in communication to create a common grounding between two humans.</li>
+</ul>
+<h3 id="generative-environment-representation-instance-based-learning-a-cognitive-model-tyler-malloy-yinuo-du-fei-fang-and-cleotilde-gonzalez">Generative Environment-Representation Instance-Based Learning: A Cognitive Model: Tyler Malloy, Yinuo Du, Fei Fang and Cleotilde Gonzalez</h3>
+<ul>
+<li>My talk</li>
+</ul>
+<h3 id="a-neuro-mimetic-realization-of-the-common-model-of-cognition-via-hebbian-learning-and-free-energy-minimization-alexander-ororbia-and-mary-alexandria-kelly">A Neuro-Mimetic Realization of the Common Model of Cognition via Hebbian Learning and Free Energy Minimization Alexander Ororbia and Mary Alexandria Kelly</h3>
+<ul>
+<li>Online learning across different task without catastrophic interference in a cognitive neural generative system.</li>
+<li>Inspired by predictive processing,</li>
+<li>Global workspace theory</li>
+</ul>
+<h3 id="bridging-cognitive-architectures-and-generative-models-with-vector-symbolic-algebras-p-michael-furlong-and-chris-eliasmith">Bridging Cognitive Architectures and Generative Models with Vector Symbolic Algebras P. Michael Furlong and Chris Eliasmith</h3>
+<ul>
+<li>VSAs can be used to encode data structures like lists, trees, graphs, and hash maps</li>
+<li>Holographic reduced representations of these structures</li>
+<li>Local smoothness of representations, even when representing categorical data.</li>
+</ul>
 ]]></content></item><item><title>Applying LLMs in Cognitive Models</title><link>tylerjamesmalloy.github.io/posts/aaai-2023/</link><pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate><guid>tylerjamesmalloy.github.io/posts/aaai-2023/</guid><description>Two submissions our lab has been working on were recently accepted to the AAAI 2023 Fall Symposium Series on the Integration of Cognitive Architectures and Generative Models. This was an exciting series for me to see since I have written multiple blog posts on this site about LLMs, but hadn&amp;rsquo;t thought deeply on how to apply them to cognitive models. LLMs definitely have been an interest of mine, but I hadn&amp;rsquo;t had a good reason to push for their integration in the models that we work with.</description><content type="html"><![CDATA[<p>Two submissions our lab has been working on were recently accepted to the AAAI 2023 Fall Symposium Series on the Integration of Cognitive Architectures and Generative Models. This was an exciting series for me to see since I have written multiple blog posts on this site about LLMs, but hadn&rsquo;t thought deeply on how to apply them to cognitive models. LLMs definitely have been an interest of mine, but I hadn&rsquo;t had a good reason to push for their integration in the models that we work with.</p>
 <p>The model used for my thesis does employ a type of generative model, but not a LLM, as I thought of text and computational linguistics as too far from my own interests in visual perception and utility-based learning and decision-making. I think that in general most people tend to be a bit hesitant about the use and applicability of LLMs in their own areas of work, while also believing that LLMs and other AI models will replace many other jobs that they are not intimately familiar with. For this reason I believe that it is fortunate that the symposium will look into methods for incorporating LLMs and other generative models into cognitive architectures.</p>
 <p>The submission that I worked on was titled: &ldquo;<a href="https://www.researchgate.net/publication/373258151_Generative_Environment-Representation_Instance-Based_Learning_A_Cognitive_Model">Generative Environment-Representation  Instance-Based Learning: A :hamster: Cognitive Model</a>&rdquo; by Tyler Malloy, Yinuo Du, Fei Fang, and Cleotilde Gonzalez. This work focused on the integration of generative models with Instance-Based Learning models of human utility-based learning and dynamic decision making. We looked at applications of combining the major groups of models that take in as input visual information, autoencoders, generative adversarial networks, and visual transformers.</p>
