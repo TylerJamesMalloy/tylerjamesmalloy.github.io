@@ -1,7 +1,7 @@
 {
   "name": "academic-pages",
   "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
+  "description": "Tyler Malloy",
   "repository": {
     "type": "git",
     "url": "https://github.com/academicpages/academicpages.github.io"
@@ -13,7 +13,8 @@
   ],
   "contributors": [
     "Michael Rose",
-    "Robert Zupko"
+    "Robert Zupko",
+    "Tyler Malloy"
   ],
   "license": "MIT",
   "bugs": {
