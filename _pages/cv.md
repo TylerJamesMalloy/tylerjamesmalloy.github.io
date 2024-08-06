@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,35 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Cognitive Science, Rensselaer Polytechnic Institute, 2022
+* M.S. in Cognitive Science, Rensselaer Polytechnic Institute, 2020
+* B.S. in Cognitive Systems and Philosophy, University of British Columbia, 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fall 2022 - Current: Postdoctoral Researcher
+  * Carnegie Mellon University
+  * Department of Social and Decision Sciences
+  * Supervisor: [Cleotilde Gonzalez](https://scholar.google.com/citations?user=KgU6Vg8AAAAJ&hl=en&oi=ao)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2019 - 2022: External Researcher 
+  * IBM Research AI 
+  * Reinforcement Learning Group
+  * Supervisor: [Tim Klinger](https://scholar.google.com/citations?user=dd8awr4AAAAJ&hl=en&oi=ao) and [Gerald Tesauro](https://scholar.google.com/citations?user=5_UCvUgAAAAJ&hl=en&oi=ao)
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Fall 2018 - 2022: Research Assistant
+  * Rensselaer Polytechnic Institute
+  * Cognitive Science Department
+  * Supervisor: [Chris R. Sims](https://scholar.google.com/citations?user=Z_rAu6sAAAAJ&hl=en&oi=ao)
+
+* Fall 2017 - Summer 2018: Research Assistant
+  * University of British Columbia
+  * Sensory Perception & Interaction Research Group ([Karon MacLean](https://scholar.google.com/citations?user=qANkJFwAAAAJ&hl=en&oi=ao))
+  * Forestry Department ([Saeed Ghafghazi](https://scholar.google.com/citations?user=9evv4QoAAAAJ&hl=en&oi=ao))
+  * School of Population and Public Health ([Peter Danielson](https://scholar.google.com/citations?user=-Krmq0UAAAAJ&hl=en&oi=ao))
+
+* Winter 2016 - Fall 2017: Research Lab Programmer
+  * Institute for Quantum Optics and Quantum Information ([Rainer Blatt](https://scholar.google.com/citations?user=_34V-4QAAAAJ&hl=en)) 
+  * University of Innsbruck ([Tracy Northup](https://scholar.google.com/citations?user=BHFu0UwAAAAJ&hl=en&oi=ao))
 
 Publications
 ======
@@ -59,6 +60,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
