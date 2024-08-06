@@ -203,15 +203,27 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+    permalink: /:collection//:path/
   publications:
     output: true
     permalink: /:collection/:path/
+    permalink: /:collection//:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
+    permalink: /:collection//:path/
   talks:
     output: true
     permalink: /:collection/:path/
+    permalink: /:collection//:path/
+  cv:
+    output: true
+    permalink: /:collection/:path/
+    permalink: /:collection//:path/
+  year-archive:
+    output: true
+    permalink: /:collection/:path/
+    permalink: /:collection//:path/
 
 
 # Defaults
