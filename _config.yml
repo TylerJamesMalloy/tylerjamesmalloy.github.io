@@ -12,7 +12,7 @@ title                    : "Tyler Malloy"
 title_separator          : "-"
 name                     : &name "Tyler Malloy"
 description              : &description "Human and Machine Learning Researcher"
-url                      : "http://www.tylermalloy.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://www.tylermalloy.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "TylerJamesMalloy/tylerjamesmalloy.github.io"
 
