@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Tyler Malloy"
+title                    : "Ty Malloy"
 title_separator          : "-"
-name                     : &name "Tyler Malloy"
+name                     : &name "Ty Malloy"
 description              : &description "Human and Machine Learning Researcher"
 url                      : "https://www.tylermalloy.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "TylerJamesMalloy/tylerjamesmalloy.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Tyler Malloy"
+  name             : "Ty Malloy"
   pronouns         : "They/Them"  
   bio              : "Postdoctoral Researcher"
   location         : "Pittsburgh"
